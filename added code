@@ -1,0 +1,8 @@
+##Simple Addition Calculator
+
+print("Simple Addition Calculator")
+input_one=input("First number here:" )
+print("+")
+input_two=input("Second number here " )
+sum-total=float(input_one)+float(input_two)
+print("Sum: "+sum_total)
