@@ -1,0 +1,15 @@
+##This should be a simple addition calculator. Mostly working on this to learn how to troublehoot in github for the future.
+
+print("Simple Addition Calculator")
+
+input_one=input("First number here:" )
+
+print("+")
+
+input_two=input("Second number here " )
+
+sum_total=float(input_one)+float(input_two) #needed to convert float back to String but didn;t remeber that you need to assign the new value to sum_total
+
+sum_total=str(sum_total)
+
+print("Sum: "+sum_total)
