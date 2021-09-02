@@ -1,0 +1,26 @@
+##A simple calculator to do simple functions
+
+print("Simple Calculator")
+
+input_one=input("Enter first number here: " )
+
+math_function=input('Enter function here: ' )
+
+input_two=input("Enter second number here: " )
+
+if math_function == '+':
+    total=float(input_one)+float(input_two)
+elif math_function == '-':
+    total=float(input_one)-float(input_two)
+elif math_function == '*':
+    total=float(input_one)*float(input_two)
+elif math_function == '/':
+    total=float(input_one)/float(input_two)
+elif math_function == '^':
+    total=float(input_one)**float(input_two)
+elif math_function == '2√':
+    total='invalid function, please use +,-,*,/,^'
+
+total=str(total)
+
+print("Total: "+total)
