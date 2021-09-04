@@ -18,7 +18,7 @@ elif math_function == '/':
     total=float(input_one)/float(input_two)
 elif math_function == '^':
     total=float(input_one)**float(input_two)
-elif math_function == '2√':
+else:
     total='invalid function, please use +,-,*,/,^'
 
 total=str(total)
