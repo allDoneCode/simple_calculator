@@ -1,0 +1,7 @@
+##Test for single line calculator
+
+input_one=input('test equation here: ')
+
+input_one=str(input_one)
+
+input_one.split()
